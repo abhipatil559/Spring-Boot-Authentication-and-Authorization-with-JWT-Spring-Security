@@ -8,14 +8,12 @@ This project is a RESTful API built with Spring Boot 3.3.2, focusing on JWT-base
 - **JWT-based Authentication**: Secure token-based authentication using JWTs.
 - **Role-Based Access Control**: Endpoints secured for BIDDER and APPROVER roles.
 - **CRUD Operations**: Full create, read, update, and delete operations for bidding data.
-- **Swagger API Documentation**: Integrated Swagger 3 for easy API exploration and testing.
 
 ## Technologies Used
 - **Spring Boot 3.3.2**
 - **Spring Security**
 - **JWT (JSON Web Token)**
 - **H2 Database** (or your preferred database)
-- **Swagger 3**
 
 ## Endpoints
 
@@ -118,8 +116,7 @@ Delete a bidding record (accessible by APPROVER or BIDDER who created it).
    mvn spring-boot:run
    ```
 
-4. **Access Swagger Documentation:**
-   Visit `http://localhost:8080/swagger-ui/index.html` to explore and test the API endpoints.
+
 
 ### Testing
 Run the tests using Maven:
@@ -130,5 +127,4 @@ mvn clean test
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-## License
-This project is licensed under the MIT License.
+
