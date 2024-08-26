@@ -60,4 +60,6 @@ public class BiddingController {
     	return this.biddingService.deleteBidding(id,email);
     }
 
+    //-----
+
 }
